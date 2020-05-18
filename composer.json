@@ -1,0 +1,29 @@
+{
+  "name"        : "itxq/pinyin",
+  "description" : "简单的汉语转拼音类",
+  "type"        : "library",
+  "license"     : "Apache-2.0",
+  "authors"     : [
+    {
+      "name"    : "IT小强xqitw.cn",
+      "email"   : "mail@xqitw.cn",
+      "homepage": "https://www.xqitw.cn/"
+    }
+  ],
+  "require"     : {
+    "php"                       : ">=7.1.0",
+    "itxq/singleton-pattern-php": "^1.0",
+    "ext-iconv"                 : "*"
+  },
+  "require-dev" : {},
+  "autoload"    : {
+    "psr-4": {
+      "itxq\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "test\\": "test"
+    }
+  }
+}
